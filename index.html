@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Cafe Talk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar"> <!--status bar-->
+        <div class="status-bar__column">
+            <span>No Service</span>    
+            <i class="fas fa-ban"></i>
+            <i class="fas fa-volume-off"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>00:22</span>
+        </div>
+        <div class="status-bar__column">    
+            <span>120%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header"> <!--로그인 페이지-->
+        <h1 class="welcome-header__title">Welcom to Cafe talk!</h1>
+        <P class="welcome-header__text">If you have a Cafe Account,<br> log in with your email or phone number.</P>
+    </header>
+    <form action="friends.html" method="GET" id="login-form">
+        <input name="userName" required autocomplete="off" type="text" placeholder="Email or Phone number">
+        <input name="password" required type="password" placeholder="Password">
+        <input type="submit" value="Log in">
+        <a href="#">Find Cafe account of Password</a>
+    </form>
+
+    <script   
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script> <!--폰트어썸 js 키트-->
+</body>
+</html>

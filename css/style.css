@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap"); /*글꼴*/
+@import "reset.css"; /*브라우저가 default로 설정해 놓은 모든 css style을 삭제.*/
+@import "variables.css"; /*사용될 css변수들의 저장창고*/
+
+@import "component/status-bar.css"; /*component(폰상태창)*/
+@import "screens/login.css"; /*login페이지*/
+
+body {
+  font-family: "Akaya Kanadaka", cursive;
+}
