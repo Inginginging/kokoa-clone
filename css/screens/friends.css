@@ -1,0 +1,40 @@
+#firends__name__display {
+  text-align: center;
+  display: block;
+  background-color: var(--pinkgold);
+  padding: 15px 0px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#firends__name__display span {
+  padding-left: 5px;
+}
+
+#firends__name__display i {
+  opacity: 0.3;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel,
+.friends-screen__friends-list {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header,
+.friends-screen__friends-list-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen__friends-list-space {
+  width: 100%;
+  height: 25px;
+}

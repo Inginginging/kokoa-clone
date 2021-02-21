@@ -2,9 +2,16 @@
 @import "reset.css"; /*브라우저가 default로 설정해 놓은 모든 css style을 삭제.*/
 @import "variables.css"; /*사용될 css변수들의 저장창고*/
 
-@import "component/status-bar.css"; /*component(폰상태창)*/
+@import "components/status-bar.css"; /*component(폰상태창)*/
+@import "components/nav.css"; /*component(네비게이션바)*/
+@import "components/screen-header.css"; /*component(스크린 헤더)*/
+@import "components/user-component.css"; /*component(사용자 프로필)*/
+
 @import "screens/login.css"; /*login페이지*/
+@import "screens/friends.css"; /*friends페이지*/
 
 body {
   font-family: "Akaya Kanadaka", cursive;
+  color: black;
+  background-color: var(--pinkgold);
 }
