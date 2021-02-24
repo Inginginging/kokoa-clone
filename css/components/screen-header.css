@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding: 40px 20px 20px 20px;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .screenheader__title {
@@ -11,4 +12,10 @@
 
 .screenheader__icons span {
   margin-left: 20px;
+}
+
+.screen-header__Notification {
+  position: absolute;
+  top: 40px;
+  right: 18px;
 }

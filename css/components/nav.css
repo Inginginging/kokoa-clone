@@ -18,25 +18,12 @@
 }
 
 .nav__chatNotification {
-  display: block;
-  text-align: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: tomato;
-  color: white;
   position: absolute;
   left: 20px;
   bottom: 10px;
-  font-weight: 500;
-  font-size: 25px;
 }
 
 .nav__ellipsisNotification {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
   position: absolute;
   right: -5px;
   top: -10px;
