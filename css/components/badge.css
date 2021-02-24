@@ -15,3 +15,17 @@
   height: 6px;
   border-radius: 50%;
 }
+
+.badge-alert {
+  margin-left: 3px;
+  background-color: none;
+  display: block;
+  text-align: center;
+  border: 2px solid tomato;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: tomato;
+  font-size: 14px;
+  opacity: 0.5;
+}

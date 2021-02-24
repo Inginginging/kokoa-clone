@@ -6,11 +6,16 @@
 @import "components/nav.css"; /*component(네비게이션바)*/
 @import "components/badge.css"; /*component(alert badge)*/
 @import "components/screen-header.css"; /*component(스크린 헤더)*/
+@import "components/alt-screen-header.css"; /*component(스크린 헤더2)*/
 @import "components/user-component.css"; /*component(사용자 프로필)*/
+@import "components/icon-row.css"; /*component(아이콘 행)*/
 
 @import "screens/login.css"; /*login페이지*/
 @import "screens/friends.css"; /*friends페이지*/
 @import "screens/find.css"; /*find페이지*/
+@import "screens/more.css"; /*more페이지*/
+@import "screens/settings.css"; /*setting페이지*/
+@import "screens/chat.css"; /*chatting페이지*/
 
 body {
   font-family: "Akaya Kanadaka", cursive;
