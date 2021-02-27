@@ -28,12 +28,21 @@
         <h1 class="welcome-header__title">Welcom to Cafe talk!</h1>
         <P class="welcome-header__text">If you have a Cafe Account,<br> log in with your email or phone number.</P>
     </header>
+    
     <form action="friends.html" method="GET" id="login-form"> <!--로그인 폼-->
         <input name="userName" required autocomplete="off" type="text" placeholder="Email or Phone number">
         <input name="password" required type="password" placeholder="Password">
         <input type="submit" value="Log in">
         <a href="#">Find Cafe account of Password</a>
     </form>
+
+    <div id="splash-screen"><!--로그인 후 welcome 화면-->
+        <span>Welcome</span>
+   </div>
+
+    <div id=no-mobile> <!--media query screen-->
+        <span>This screen is too big;;</span>
+    </div>
 
     <script   
       src="https://kit.fontawesome.com/6478f529f2.js"

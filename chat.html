@@ -7,6 +7,7 @@
     <title>Chat with Starbox-Cafe talk</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body id="chat-screen">
     <div class="status-bar"> <!--status bar-->
         <div class="status-bar__column">
@@ -24,7 +25,7 @@
         </div>
     </div>
 
-    <header class="alt-header"><!--Settings 해더-->
+    <header class="alt-header"><!--Chat 해더-->
         <div class="alt-header__column">
             <a href="chats.html">
                 <i class="fas fa-angle-left fa-2x"></i>
@@ -39,13 +40,58 @@
         </div>
     </header>
 
-    <main class="main-screen main-chat">
+    <main class="main-screen main-chat"> <!--chatting내용-->
         <div class="chat__timestamp">
             Sunday, February 14, 2021
         </div>
+
+        <div class="message-row">
+            <img src="images/starbucks.png">
+            <div class="message-row__content">
+                <span class="message__author">Starbucks</span>
+                <div class="message__info">
+                    <span class="message__bubble">hi!</span>
+                    <span class="message__time">23:47</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+                <div class="message__info">
+                    <span class="message__bubble">what' up?</span>
+                    <span class="message__time">23:50</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="images/starbucks.png">
+            <div class="message-row__content">
+                <span class="message__author">Starbucks</span>
+                <div class="message__info">
+                    <span class="message__bubble">sleep.....?</span>
+                    <span class="message__time">00:21</span><span class="not-read">1</span>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <form class="reply"> <!--reply bar-->
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="far fa-grin fa-2x"></i>
+            <button>
+                <i class="fas fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+    </form>
 
+    <div id=no-mobile> <!--media query screen-->
+        <span>This screen is too big;;</span>
+    </div>
 
     <script   
       src="https://kit.fontawesome.com/6478f529f2.js"

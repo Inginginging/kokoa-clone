@@ -98,8 +98,29 @@
   position: absolute;
   bottom: 8px;
   right: 5px;
+  cursor: pointer;
+}
+
+.open-post__heart-count i {
+  color: white;
 }
 
 .delete-border {
   border-style: none;
+}
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open-post__heart-count:hover i {
+  animation: heartbeat 3s ease-in-out infinite;
 }

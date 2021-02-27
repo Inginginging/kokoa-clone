@@ -9,6 +9,7 @@
 @import "components/alt-screen-header.css"; /*component(스크린 헤더2)*/
 @import "components/user-component.css"; /*component(사용자 프로필)*/
 @import "components/icon-row.css"; /*component(아이콘 행)*/
+@import "components/no-mobile.css"; /*component(media-query)*/
 
 @import "screens/login.css"; /*login페이지*/
 @import "screens/friends.css"; /*friends페이지*/
@@ -21,8 +22,19 @@ body {
   font-family: "Akaya Kanadaka", cursive;
   color: black;
   background-color: var(--pinkgold);
+  animation: fadeInBody 1s ease-in-out;
+  animation-delay: 0s;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+@keyframes fadeInBody {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

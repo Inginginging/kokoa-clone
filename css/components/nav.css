@@ -17,10 +17,23 @@
   position: relative;
 }
 
+@keyframes chatNotificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__chatNotification {
   position: absolute;
   left: 20px;
   bottom: 10px;
+  animation: chatNotificationAnimation 1.5s ease-in-out infinite;
 }
 
 .nav__ellipsisNotification {
