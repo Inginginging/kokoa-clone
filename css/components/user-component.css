@@ -51,3 +51,11 @@
   display: block;
   margin-bottom: 5px;
 }
+
+.chat-component{
+  margin-bottom: 30px;
+}
+
+.chat-component:hover{
+  opacity: .7;
+}

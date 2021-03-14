@@ -11,7 +11,9 @@
 @import "components/icon-row.css"; /*component(아이콘 행)*/
 @import "components/no-mobile.css"; /*component(media-query)*/
 
+
 @import "screens/login.css"; /*login페이지*/
+@import "screens/welcome.css"; /*welcome 페이지*/
 @import "screens/friends.css"; /*friends페이지*/
 @import "screens/find.css"; /*find페이지*/
 @import "screens/more.css"; /*more페이지*/

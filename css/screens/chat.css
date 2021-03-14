@@ -1,10 +1,10 @@
-#chat-screen {
+.chat-screen {
   background-color: #339966;
-  height: 200vh;
+  height: 150vh;
 }
 
-#chat-screen .alt-header,
-#chat-screen .status-bar {
+.chat-screen .alt-header,
+.chat-screen .status-bar {
   top: 0;
   position: fixed;
   width: 100%;
@@ -12,11 +12,11 @@
   background-color: #339966; /*바탕색을 줘야 됨. 원래는 투명한 색이엿음 ㅅㅂ*/
 }
 
-#chat-screen .status-bar {
+.chat-screen .status-bar {
   z-index: 2;
 }
 
-#chat-screen .alt-header {
+.chat-screen .alt-header {
   z-index: 1;
 }
 
@@ -192,4 +192,71 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+
+.chat-screen-ediya {
+  background-color:#7ed6df;
+  height: 150vh;
+}
+
+.chat-screen-ediya .alt-header-ediya,
+.chat-screen-ediya .status-bar-ediya {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color:#7ed6df; /*바탕색을 줘야 됨. 원래는 투명한 색이엿음 ㅅㅂ*/
+}
+
+.chat-screen-ediya .status-bar-ediya {
+  z-index: 2;
+}
+
+.chat-screen-ediya .alt-header-ediya {
+  z-index: 1;
+}
+
+.chat-screen-gongcha {
+  background-color:#636e72;
+  height: 150vh;
+}
+
+.chat-screen-gongcha .alt-header-gongcha,
+.chat-screen-gongcha .status-bar-gongcha {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color:#636e72; /*바탕색을 줘야 됨. 원래는 투명한 색이엿음 ㅅㅂ*/
+}
+
+.chat-screen-gongcha .status-bar-gongcha {
+  z-index: 2;
+}
+
+.chat-screen-gongcha .alt-header-gongcha {
+  z-index: 1;
+}
+
+.chat-screen-hollys {
+  background-color:#ff7979;
+  height: 150vh;
+}
+
+.chat-screen-hollys .alt-header-hollys,
+.chat-screen-hollys .status-bar-hollys {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color:#ff7979; /*바탕색을 줘야 됨. 원래는 투명한 색이엿음 ㅅㅂ*/
+}
+
+.chat-screen-hollys .status-bar-hollys {
+  z-index: 2;
+}
+
+.chat-screen-hollys .alt-header-hollys {
+  z-index: 1;
 }
