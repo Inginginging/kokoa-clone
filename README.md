@@ -1,3 +1,5 @@
 # Kokoa clone 2021
 
-plz HTML+CSS get better!
+Using
+1. HTML  
+2. CSS
